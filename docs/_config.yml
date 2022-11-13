@@ -33,7 +33,8 @@ github_username: tkc88888888
 plugins:
   - jekyll-feed
 
-google_analytics: "G-1J82SJ5T5T"
+# Google Analytics
+google_analytics: G-1J82SJ5T5T
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
