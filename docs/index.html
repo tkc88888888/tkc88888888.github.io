@@ -1,184 +1,160 @@
-<html lang="{{ site.lang | default: "en-US" }}">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>GoMyTeam Website</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-		<!--
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
-		-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-		{% if site.google_analytics and jekyll.environment == 'production' %}
-		{% include analytics.html %}
-		{% endif %}
-	</head>
-	<body>
-		<section class="header">
-			<div class="container">
-				<nav class="navbar navbar-expand-lg">
-					<div class="container-fluid">
-					  <a class="navbar-brand" href="index.html"><img src="images/midlogo.png"></a>
-					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
-						<i class="fa fa-bars"></i>
-					  </button>
-					  <div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav ms-auto text-end">
-							<li class="nav-item">
-								<a class="nav-link active-home" aria-current="page" href="index.html">HOME</a>
-							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="services.html">SERVICES</a>
-							  </li>
-								<!--  <li class="nav-item">
-								<a class="nav-link" href="pricing.html">PRICING</a>
-							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="aboutus.html">ABOUT US</a>
-							  </li>-->
-							  <li class="nav-item">
-								<a class="nav-link" href="contactus.html">CONTACT US</a>
-							  </li>
-						</ul>
-					  </div>
-					</div>
-				</nav>
-				<div class="row banner">
-					<div class="col-md-6">
-						<h1>Thinking of ways <br> to upskill your new hire?</h1>
-						<p>Learn how our learning program benefits <s>employee </s> future of your company.</p>
-						<a href="contactus.html" class="express-btn">JOIN FREE</a>
-						<a href="services.html">EXPLORE MORE</a>
-					</div>
-					<div class="col-md-6 text-center">
-						<img src="images/frontpageworker.png" class="img-fluid">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="service">
-			<div class="container">
-				<h2 class="title">Our learning program covers 3 distinct area</h2>
-				<p class="subtitle">which according to research are the building blocks to innovative solution applicable across industries.</p>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="service-box">
-							<img src="images/communication.png" class="img-fluid">
-							<h6>Communication</h6>
-							<p>Impactful communicator helps people become more influential and effective
-								in their organizations. Understand how to move
-								people to action based on four key steps of the E.P.I.C communicating framework</p>
-							<a href="services.html"><i class="fa fa-arrow-right" style="color:red"></i> </a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<img src="images/problemsolving.png" class="img-fluid">
-							<h6>Problem Solving</h6>
-							<p>The ability to solve problems and make sound decisions is central to every
-								professional’s effectiveness on the job. Learn how to solve problems in a structured way with S.M.A.R.T problem solving framework.</p>
-							<a href="services.html"><i class="fa fa-arrow-right" style="color:red"></i> </a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<img src="images/designthinking.png" class="img-fluid">
-							<h6>Design Thinking</h6>
-							<p>Learning to emphatize and define problem is only the beginning. Design thinking complements it with iterative process ideate--prototype--test--assess to help you achieve product and service innovation</p>
-							<a href="services.html"><i class="fa fa-arrow-right" style="color:red"></i> </a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="explore">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6"r>
-						<img src="images/testimonial.jpg" class="img-fluid">
-						<div class="row">
-							<div class="col-md-6">
-								<img src="images/zoom.png" class="img-fluid">
-							</div>
-							<div class="col-md-6">
-								<img src="images/zoom.png" class="img-fluid">
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<h2>101+<br> </h2>
-						<h3>successful cross industry <br> learning and sharing session held.</h3>
-						<h2>2014+ </h2>
-						<h3>employee benefited.</h3>
-						<p>We are also open to tailor learning program according to your company's need</p>
-						<a href="contactus.html">CONTACT US</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="review">
-			<div class="container">
-				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-					<ol class="carousel-indicators">
-						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-					</ol>
-					<div class="carousel-inner">
-						<div class="carousel-item active" data-bs-interval="10000">
-							<img src="images/testimonial-1.jpg">
-							<div class="carousel-caption">
-								<h6>M.Subramaniam</h6>
-								<small>Project Engineer at MMC Gamuda</small>
-								<p>GoMyTeam program has given me the opportunity to gain an in-depth understanding about the foundation skills that are critical in today’s uncertain and ever-changing world.</p>
-							</div>
-						</div>
-						<div class="carousel-item" data-bs-interval="10000">
-							<img src="images/testimonial-2.jpg">
-							<div class="carousel-caption">
-								<h6>Scha Aliya</h6>
-								<small>Senior Executive at Talentcorp</small>
-								<p>GoMyTeam is unlike any other program. It helped me unlock my own potential and opened my eyes to the importance of adaptable and resilient mindsets and setting clear learning intentions. Each step of the journey is precious.</p>
-							</div>
-						</div>
-						<div class="carousel-item" data-bs-interval="10000">
-							<img src="images/testimonial-3.jpg">
-							<div class="carousel-caption">
-								<h6>Jaden Tham</h6>
-								<small>Associate Consultant at Accenture</small>
-								<p>“Every single moment of the GoMyTeam program was insightful and eye-opening. It helped me sharpen core business and leadership skills.</p>
-							</div>
-						</div>
-						<div class="carousel-item" data-bs-interval="10000">
-							<img src="images/testimonial-4.jpg">
-							<div class="carousel-caption">
-								<h6>Wong Sher Yee</h6>
-								<small>Auditor at KPMG</small>
-								<p>GoMyTeam program helped me evolve as a young professional. The skills I learned were very practical and helped me to be adaptable and resilient, communicate effectively, and develop the right mindset.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="footer text-center">
-			<div class="container">
-				<h2>Subscribe To Our Newsletter</h2>
-				<form>
-					<input type="email" placeholder="Enter Your Email.." required>
-					<button type="submit">SUBSCRIBE</button>
-					<small>Copyright @ 2022, Designed by Eigensolution Sdn Bhd</small>
-				</form>
-			</div>
-		</section>
-	</body>
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+          <section class="header">
+            <div class="container">
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/midlogo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                  <i class="fa fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto text-end">
+                    <li class="nav-item">
+                      <a class="nav-link active-home" aria-current="page" href="index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="services.html">SERVICES</a>
+                      </li>
+                      <!--  <li class="nav-item">
+                      <a class="nav-link" href="pricing.html">PRICING</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                      </li>-->
+                      <li class="nav-item">
+                      <a class="nav-link" href="contactus.html">CONTACT US</a>
+                      </li>
+                  </ul>
+                  </div>
+                </div>
+              </nav>
+              <div class="row banner">
+                <div class="col-md-6">
+                  <h1>Thinking of ways <br> to upskill your new hire?</h1>
+                  <p>Learn how our learning program benefits <s>employee </s> future of your company.</p>
+                  <a href="contactus.html" class="express-btn">JOIN FREE</a>
+                  <a href="services.html">EXPLORE MORE</a>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img src="images/frontpageworker.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="service">
+            <div class="container">
+              <h2 class="title">Our learning program covers 3 distinct area</h2>
+              <p class="subtitle">which according to research are the building blocks to innovative solution applicable across industries.</p>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="service-box">
+                    <img src="images/communication.png" class="img-fluid">
+                    <h6>Communication</h6>
+                    <p>Impactful communicator helps people become more influential and effective
+                      in their organizations. Understand how to move
+                      people to action based on four key steps of the E.P.I.C communicating framework</p>
+                    <a href="services.html"><i class="fa fa-arrow-right" style="color:red"></i> </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service-box">
+                    <img src="images/problemsolving.png" class="img-fluid">
+                    <h6>Problem Solving</h6>
+                    <p>The ability to solve problems and make sound decisions is central to every
+                      professional’s effectiveness on the job. Learn how to solve problems in a structured way with S.M.A.R.T problem solving framework.</p>
+                    <a href="services.html"><i class="fa fa-arrow-right" style="color:red"></i> </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service-box">
+                    <img src="images/designthinking.png" class="img-fluid">
+                    <h6>Design Thinking</h6>
+                    <p>Learning to emphatize and define problem is only the beginning. Design thinking complements it with iterative process ideate--prototype--test--assess to help you achieve product and service innovation</p>
+                    <a href="services.html"><i class="fa fa-arrow-right" style="color:red"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="explore">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6"r>
+                  <img src="images/testimonial.jpg" class="img-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/zoom.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="images/zoom.png" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h2>101+<br> </h2>
+                  <h3>successful cross industry <br> learning and sharing session held.</h3>
+                  <h2>2014+ </h2>
+                  <h3>employee benefited.</h3>
+                  <p>We are also open to tailor learning program according to your company's need</p>
+                  <a href="contactus.html">CONTACT US</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="review">
+            <div class="container">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/testimonial-1.jpg">
+                    <div class="carousel-caption">
+                      <h6>M.Subramaniam</h6>
+                      <small>Project Engineer at MMC Gamuda</small>
+                      <p>GoMyTeam program has given me the opportunity to gain an in-depth understanding about the foundation skills that are critical in today’s uncertain and ever-changing world.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="images/testimonial-2.jpg">
+                    <div class="carousel-caption">
+                      <h6>Scha Aliya</h6>
+                      <small>Senior Executive at Talentcorp</small>
+                      <p>GoMyTeam is unlike any other program. It helped me unlock my own potential and opened my eyes to the importance of adaptable and resilient mindsets and setting clear learning intentions. Each step of the journey is precious.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="images/testimonial-3.jpg">
+                    <div class="carousel-caption">
+                      <h6>Jaden Tham</h6>
+                      <small>Associate Consultant at Accenture</small>
+                      <p>“Every single moment of the GoMyTeam program was insightful and eye-opening. It helped me sharpen core business and leadership skills.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="images/testimonial-4.jpg">
+                    <div class="carousel-caption">
+                      <h6>Wong Sher Yee</h6>
+                      <small>Auditor at KPMG</small>
+                      <p>GoMyTeam program helped me evolve as a young professional. The skills I learned were very practical and helped me to be adaptable and resilient, communicate effectively, and develop the right mindset.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+  {% include footer.html %}
+
+  </body>
+
 </html>
