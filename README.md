@@ -11,7 +11,7 @@ https://catamyst.slab.com/public/posts/scf-module-8-mock-assignment-web-developm
 .
 <br>├── _config.yml **(to be modified according to reference[1])**
 <br>├── Gemfile **(to be modified according to reference[1])**
-<br>├── Gemfile.lock
+<br>├── Gemfile.lock *(leave this default file)*
 <br>├── images  **(website images uploaded here)**
 <br>├── _includes  **(reusable code snippet stored in _include directory)**
 <br>│   ├── analytics.html
@@ -20,8 +20,8 @@ https://catamyst.slab.com/public/posts/scf-module-8-mock-assignment-web-developm
 <br>├── index.html   **(my 3 html files, with index as the main one)**
 <br>├── contactus.html
 <br>├── services.html
-<br>├── _site  **(_site directory automatocally created and store rebuild pages of your site by Jekyll everytime you commit)**
-└── style.css   **(my css file)**
+<br>├── _site  *(leave this directory, Jekyll will automatically rebuild pages of your site everytime you commit)*
+<br>└── style.css   **(my css file)**
 
 
 ### References
