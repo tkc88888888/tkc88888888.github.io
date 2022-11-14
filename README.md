@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This is a mock assignment based on a Minimal Jekyll theme for GitHub Pages.
+This is a mock assignment based on a Minima Jekyll theme for GitHub Pages.
 <br>https://catamyst.slab.com/public/posts/scf-module-8-mock-assignment-web-development-intermediate-7vnwg792
 
 ### Directory explanation
