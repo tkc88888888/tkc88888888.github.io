@@ -30,7 +30,7 @@ github_username: tkc88888888
 # Google Analytics
 google_analytics: G-1J82SJ5T5T
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
